@@ -1,0 +1,52 @@
+{
+    "cumulative_timesteps": 155126650,
+    "cumulative_model_updates": 41461,
+    "policy_average_reward": 2407.129332970815,
+    "epoch": 1543,
+    "ts_since_last_save": 300026,
+    "reward_running_stats": {
+        "mean": [
+            86.40531049781742
+        ],
+        "var": [
+            37797401020.19426
+        ],
+        "shape": [
+            1
+        ],
+        "count": 232650
+    },
+    "wandb_run_id": "jxfhy750",
+    "wandb_project": "rlgym-ppo",
+    "wandb_entity": "leobush050-none",
+    "wandb_group": "unnamed-runs",
+    "wandb_config": {
+        "n_proc": 32,
+        "min_inference_size": 29,
+        "timestep_limit": 50000000000,
+        "exp_buffer_size": 1000000,
+        "ts_per_iteration": 100000,
+        "standardize_returns": true,
+        "standardize_obs": false,
+        "policy_layer_sizes": [
+            512,
+            512,
+            512
+        ],
+        "critic_layer_sizes": [
+            512,
+            512,
+            512
+        ],
+        "ppo_epochs": 3,
+        "ppo_batch_size": 100000,
+        "ppo_minibatch_size": 100000,
+        "ppo_ent_coef": 0.001,
+        "ppo_clip_range": 0.2,
+        "gae_lambda": 0.95,
+        "gae_gamma": 0.99,
+        "policy_lr": 0.0001,
+        "critic_lr": 0.0001,
+        "shm_buffer_size": 8192
+    }
+}
